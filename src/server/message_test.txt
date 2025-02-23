@@ -1,0 +1,9 @@
+#用户zhang san 登录
+{"msgid":1,"id":1,"password":"123456"}
+#用户zhang san 给用户li si发消息
+{"msgid":5,"id":1,"from":"zhang san","to":2,"msg":"hello!"}
+{"msgid":5,"id":1,"from":"zhang san","to":2,"msg":"world!"}
+#用户li si登录
+{"msgid":1,"id":2,"password":"666666"}
+#用户li si添加好友
+{"msgid":6,"id":2,"friendid":1}
