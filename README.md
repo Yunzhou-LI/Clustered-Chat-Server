@@ -7,7 +7,7 @@
 ## 2.项目运行方式  
 1.克隆到本地后，根据requirements.txt首先完成项目所需依赖配置  
 2.运行自动编译脚本autobuild.sh，编译好的文件放在build文件夹下  
-3.运行服务端可执行文件chatserver 默认需要两个参数：ip和port  
+3.切换到bin目录，运行服务端可执行文件chatserver 默认需要两个参数：ip和port  
 4.运行客户端可执行文件chatclient 默认需要两个参数：ip和port  
 ### 运行示例：  
 ``` c++ 
