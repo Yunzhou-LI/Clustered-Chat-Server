@@ -14,5 +14,14 @@
 ./autobuild.sh
 ```
 ![](/img/img1.png)
-
-
+进入到bin目录，运行服务端可执行文件。  
+``` c++ 
+cd bin
+./chatserver 127.0.0.1 6000
+```
+![](/img/img2.png)  
+新开一个Linux终端，进入到项目的bin目录下，运行聊天客户端可执行文件。
+``` c++ 
+./chatclient 127.0.0.1 8000
+```
+![](/img/img3.png) 
